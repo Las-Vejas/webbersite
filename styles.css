@@ -2,46 +2,61 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f9f9f9; /* Muted light background */
+    color: #444; /* Softer text color */
+    line-height: 1.6;
 }
 
 /* Header styles */
 header {
-    background-color: #0078d7;
-    color: white;
-    padding: 1rem;
+    background-color: #6c757d; /* Muted gray */
+    color: #f8f9fa; /* Light gray */
+    padding: 1.5rem;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 /* Navigation styles */
 nav {
-    background-color: #005a9e;
-    padding: 0.5rem;
+    background-color: #495057; /* Dark muted gray */
+    padding: 0.75rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Modern spacing between links */
 }
 
 nav a {
-    color: white;
+    color: #f8f9fa; /* Light gray */
     text-decoration: none;
-    margin: 0 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #6c757d; /* Muted gray */
+    color: #ffffff;
 }
 
 /* Main content styles */
 main {
     padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* White background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #343a40; /* Dark muted gray */
+    color: #f8f9fa; /* Light gray */
     text-align: center;
     padding: 1rem;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
